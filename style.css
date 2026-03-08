@@ -12,8 +12,14 @@ body {
   width: 200px;
   height: 300px;
   overflow: hidden;
+  gap:10px;
   border-radius: 10px;
-  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 20*px 60px rgba(0, 0, 0, 0.4);
+}
+.cards{
+  display:flex;
+  gap:20px;
+  flex-wrap:wrap;
 }
 
 .bg-img {
@@ -21,6 +27,7 @@ body {
   height: 100%;
   object-fit: cover;
   display: block;
+  gap: 20px;
 }
 
 .blurred-layer {
